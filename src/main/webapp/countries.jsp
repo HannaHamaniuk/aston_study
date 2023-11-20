@@ -21,7 +21,7 @@
             <td>${country.president}</td>
             <td>${country.capital}</td>
             <td>
-                <a href="/view?id=${country.id}">delete</a>
+                <a href="/unions?id=${country.id}">view unions</a>
             </td>
         </tr>
     </c:forEach>
